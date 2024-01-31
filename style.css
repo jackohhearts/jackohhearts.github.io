@@ -1,0 +1,152 @@
+img {
+    
+    flex-direction: row;
+    align-items: center;
+    align-content: center;margin: 10px;
+
+}
+
+
+.album-description {
+    text-align: left;
+    display: flex;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 400px;
+    padding: 10px 20px;
+    background-color: #7a33a3; /* Lighter purple */
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    
+}
+.outnow {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: xx-large;
+    
+}
+.streamnow {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    margin-bottom: -15px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Full height */
+    width: 100%; /* Full width */
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgb(123, 51, 196), rgb(137, 73, 122));
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
+    background-size: cover; /* Ensures the background covers the entire viewport */
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+.container {
+    min-height: 100%; /* Ensures the container takes up at least the full viewport height */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto 20px; /* Centers the image and adds bottom margin */
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+h1 {
+    color: #fff; /* White for headers */
+}
+
+.location {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.location img {
+    height: 25px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.location p, .album-announcement p, .album-description p {
+    color: rgb(0, 0, 0); /* Light color for text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.album-announcement, .album-description {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    
+    
+}
+
+.album-announcement {
+    font-size: larger;
+}
+
+
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+
+.social-links img {
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.streaming-links a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 200px;
+    padding: 10px 20px;
+    background-color: #7a33a3; /* Lighter purple */
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    border: 1px solid #fff;
+}
+
+.streaming-links img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.streaming-links a:hover {
+    background-color: #9b4dca; /* Slightly darker purple on hover */
+}
+
+@media (max-width: 600px) {
+    .streaming-links a {
+        width: 90%;
+    }
+}
